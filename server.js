@@ -25,7 +25,7 @@ if(request.method === "GET" && parsedUrl.path === "/listings"){
     response.write(listingData);
 } else {
     response.statusCode = 404;
-    response.write("Bad gateway error 404");
+    response.write("Bad gateway error");
 }
 
 
